@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" 
+ "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd"> 
+
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="100%" height="100%"> 
+
+<g>
+ <rect width="150" height="150" x="50" y="50"
+       fill="red"/>
+</g>
+<g transform="rotate(40)">
+ <rect width="150" height="150" x="50" y="50"
+       fill="blue"/>
+</g>
+<g transform="scale(2,0.5)">
+ <rect width="150" height="150" x="50" y="50"
+       fill="green"/>
+</g>
+</svg>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20001102//EN" 
+ "http://www.w3.org/TR/2000/CR-SVG-20001102/DTD/svg-20001102.dtd"> 
+
+<svg xmlns="http://www.w3.org/2000/svg" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     width="100%" height="100%"> 
+  <defs>
+   <radialGradient id="pattern1"> 
+      <stop offset="0%"   stop-color="yellow"/>
+      <stop offset="40%"  stop-color="red"/>
+      <stop offset="80%"  stop-color="blue"/>
+   </radialGradient> 
+  </defs>
+
+  <g>
+    <rect width="150" height="150" x="50" y="50"
+          fill="url(#pattern1)"/>
+  </g>
+</svg>
+

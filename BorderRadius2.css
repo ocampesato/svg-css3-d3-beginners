@@ -1,0 +1,16 @@
+#imgborder3 {
+  -webkit-border-top-left-radius : 2em;
+  -webkit-border-top-right-radius : 2em;
+  -webkit-border-bottom-left-radius : 0.5em;
+  -webkit-border-bottom-right-radius : 0.5em;
+  border-top-left-radius : 5em;
+  border-top-right-radius : 5em;
+  border-bottom-left-radius : 2.5em;
+  border-bottom-right-radius : 2.5em;
+} 
+    
+#imgborder1, #imgborder2 {
+-webkit-border-radius : 50%;
+border-radius : 10em 10em 10em 10em;
+}
+

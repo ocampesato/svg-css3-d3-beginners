@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"> 
+ <head>
+   <meta charset="utf-8" />
+   <title>Create a Circle</title>
+
+   <script src="d3.min.js"></script>
+
+   <script>
+     var dataXValues=[10, 50, 20, 80,150,180,220];
+
+     var svg = d3.select("body")
+                 .append("svg")
+                 .attr("width", width)
+                 .attr("height",height);
+
+     svg.append("circle")
+        .attr("cx", 10)
+        .attr("cy", 10)
+        .attr("r",  100)
+        .attr("fill", "red");
+
+     var circles = svg.selectAll("circles")
+                      .data(dataXValues)
+                      .enter()
+                      .append("circle")
+                      .attr("cx", function(d, i) {
+                         return (d*5*Math.random()); 
+                      })
+                      .attr("cy", function(d, i) {
+                         return (d*5*Math.random()); 
+                      })
+                      .attr("r", radius)
+                      .style("fill", "red");
+   </script>
+ </head>
+
+ <body>
+ </body>
+</html>
+
