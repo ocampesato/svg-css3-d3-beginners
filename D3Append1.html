@@ -5,16 +5,18 @@
    <title>Append a Paragraph </title>
 
    <script src="d3.min.js"></script>
+ </head>
 
+ <body>
    <script>
     d3.select("body")
          .append("p")
          .text("Hello1 D3");
-   </script>
- </head>
 
- <body>
-   <p>Hello1 D3</p>
+    d3.select("body").append("p").text("New paragraph!");
+   </script>
+
+   <div>Hello2 D3</div>
  </body>
 </html>
 
